@@ -1,5 +1,12 @@
+*{
+  margin-top: 20px;
+  gap: 40px;
 
-
+  
+}
+body{
+  background-color: #F0F0F0;
+}
 .fira-sans-normal {
   font-family: "Fira Sans", serif;
 }
@@ -38,6 +45,9 @@ nav ul li {
   padding: 30px 100px;
   opacity: 100%;
   border-radius: 20px;
+}
+.banner-head{
+  margin-top: ;
 }
 
 .section_title {
@@ -90,7 +100,6 @@ nav ul li {
      border-radius: 20px;
      gap: 24px;
 
-    /* background-color: grey; */
 }
 .banner-h1{
     padding-left: 40px;
@@ -113,18 +122,16 @@ nav ul li {
 .banner-position{
   display: flex;
   justify-content: space-around;
- 
   box-shadow: 4px 4px 8px grey;
   padding: 30px; 
- align-items: center;
- margin: 0px 50px;
- gap: 50px;
+  align-items: center;
+  margin: 0px 50px;
+  gap: 50px;
   border-radius: 24px;
 }
 
-/* .banner-head{ */
-  
-/* } */
+
+
  .vision-future{
   padding-left: 50px;
  }
@@ -166,4 +173,65 @@ nav ul li {
  }
  .recent-news{
   padding-left: 3rem;
+  margin-top: 20px;
  }
+.text-center{
+  text-align: center;
+}
+/* donate section styles */
+.donate-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 14px;
+  text-align: center;
+  
+  
+}
+.donate-description{
+  padding: 10px;
+
+}
+.donate-box{
+  align-items: center;
+  box-shadow: 4px 4px 8px grey;
+  padding: 0 40px;
+  margin: 0 40px;
+  font-size: 40px;
+  width: 252px;
+  height: 128px;
+  gap: 24px;
+  border-radius: 16px;
+}
+.main-box-title{
+background-color: #FFFFFF;
+border-radius: 0px;
+border: none;
+}
+
+.box-title{
+ text-align: center;
+ box-shadow: 4px 4px 8px #FFFFFF;
+ border-radius: 0px;
+ background-color: white;
+ 
+ color: rgba(14, 14, 14, 0.8);
+ gap: 32px;
+}
+.button-box{
+  display: flex;
+  justify-content: center;
+}
+.color-button{
+  padding: 10px 24px;
+  color: white;
+  background-color: #006A50;
+  border-radius: 8ox;
+  font-size: 17px;
+  border-radius: 5px;
+  
+}
+
+.text-center1{
+  display: flex;
+  justify-content: center;
+}
